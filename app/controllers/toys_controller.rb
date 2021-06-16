@@ -49,3 +49,17 @@ class ToysController < ApplicationController
       params.require(:toy).permit(:name, :image, :likes)
     end
 end
+
+
+
+
+
+
+
+# actor 
+# name image likes on_stage:boolean
+##
+
+# prop
+# name image currently_with actor:belongs_to
+##
