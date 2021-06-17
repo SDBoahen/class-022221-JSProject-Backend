@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
 
+  
   resources :props
+
   resources :actors do
     resources :props
   end
-    resources :actors
+  # resources :actors
 
 
 
